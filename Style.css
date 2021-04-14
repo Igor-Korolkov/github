@@ -1,0 +1,274 @@
+@keyframes rotation {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+body {
+    font-family: "Montserrat";
+    margin: 0 auto;
+    min-width: 480px;
+    max-width: 1280px;
+    background-image: url("img/bcg-1.svg");
+    background-repeat: no-repeat;
+    background-position: 51% 40%;
+    background-size: 1500px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: auto;
+}
+
+.header-logo {
+    margin-top: 30px;
+}
+
+.header-logo img {
+    height: 160px;
+    animation: rotation 20s linear 0s infinite;
+}
+
+.main-section {
+    margin: auto;
+    max-width: 1024px;
+}
+
+.main-header {
+    display: flex;
+    height: 180px;
+
+}
+
+.main-searchbar {
+    height: 60px;
+    border: 2px solid #2E78E9;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1000px;
+    margin: auto;
+    color: #2E78E9;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #2E78E9;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    color: #2E78E9;
+    margin-top: 40px;
+}
+
+.main-button button {
+    background-color: #2E78E9;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 64px;
+    width: 200px;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.result-container {
+    margin: auto;
+    margin-top: 60px;
+    max-width: 1024px;
+}
+
+.result-header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.movie-big-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.movie-big {
+    height: 460px;
+    background-color: white;
+    width: 920px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.movie-big img {
+    height: 400px;
+    width: 266px;
+    float: left;
+    margin: 32px 60px 40px 100px;
+}
+
+.movie-big h2 {
+    margin-top: 160px;
+    font-size: 32px;
+}
+
+.movie-big p {
+    font-size: 24px;
+}
+
+.movie-big  a {
+    font-size: 20px;
+    color: #2E78E9;
+}
+
+@media (max-width: 1024px) {
+    body {
+        max-width: 768px;
+        background-image: url("img/bcg-1.svg");
+        background-repeat: no-repeat;
+        background-position: 50% 28%;
+        background-size: 1000px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-logo img {
+        height: 150px;
+    }
+
+    .main-section {
+        max-width: 768px;
+    }
+
+    .main-header {
+        height: 120px;
+    }
+
+    .main-searchbar {
+        height: 50px;
+        border-radius: 16px;
+        width: 660px;
+        margin-top: 0px;
+    }
+
+
+    .main-button button {
+        border-radius: 16px;
+        height: 54px;
+        width: 160px;
+        font-size: 28px;
+    }
+
+    .result-container {
+        margin-top: 30px;
+        max-width: 768px;
+    }
+
+    .movie-big {
+        height: 280px;
+        width: 600px;   
+    }
+
+    .movie-big img {
+        height: 225px;
+        width: 150px;
+        margin: 30px 60px 40px 60px;
+    }
+
+    .movie-big h2 {
+        margin-top: 80px;
+        font-size: 24px;
+    }
+
+    .movie-big p {
+        font-size: 20px;
+    }
+
+    .movie-big  a {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 480px;
+        background-image: url("img/bcg-1.svg");
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: 560px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .header-logo img {
+        height: 100px;
+    }
+
+    .main-section {
+        max-width: 480px;
+    }
+
+    .main-header {
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    .main-searchbar {
+        width: 480px;
+        margin-top: 30px;
+    }
+
+    .main-button button {
+        border-radius: 16px;
+        height: 54px;
+        width: 160px;
+        font-size: 28px;
+    }
+
+    .result-container {
+        margin-top: 30px;
+        max-width: 768px;
+    }
+
+    .movie-big {
+        height: 280px;
+        width: 480px;   
+    }
+
+    .movie-big img {
+        height: 225px;
+        width: 150px;
+        margin: 30px 60px 40px 60px;
+    }
+
+    .movie-big h2 {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .movie-big p {
+        font-size: 18px;
+    }
+
+    .movie-big  a {
+        font-size: 16px;
+    }
+
+}
+
+
