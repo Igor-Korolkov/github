@@ -1,0 +1,169 @@
+*, *:before, *after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    margin: 0;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+li {
+    list-style: none;
+}
+
+.yellow-highlite {
+    color: #ffda68;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+    /* HEADER */
+
+.header-nav {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.header-nav a:hover {
+    color: #ffda68;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+
+}
+
+.header-nav ul li {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+
+    /* MAIN */
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250x;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 70px;
+    width: 380px;
+    font-weight: 900;
+    width: 440px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffda68;
+    text-shadow: black 0 0 10px
+}
+
+.content-gallery {
+    width: 1024px;
+    height: 512px;
+    margin-bottom: 70px;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    min-width: 320px;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.item1 {
+    background-image: url(/img/gallery/gallery-01-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+.item2 {
+    background-image: url(/img/gallery/gallery-02-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+.item3 {
+    background-image: url(/img/gallery/gallery-03-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+.item4 {
+    background-image: url(/img/gallery/gallery-04-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+.item5 {
+    background-image: url(/img/gallery/gallery-05-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+.item6 {
+    background-image: url(/img/gallery/gallery-06-s.jpg);
+    width: 320px;
+    height: 240px;
+}
+
+    /* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+}
+        
+.footer ul {
+    display: flex;
+}
+    
+.footer img {
+    height: 30px;
+    margin-right: 50px;
+}
